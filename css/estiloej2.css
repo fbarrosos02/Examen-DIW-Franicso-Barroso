@@ -1,0 +1,105 @@
+/*FRANCISCO BARROSO SIMON*/
+    /*No me ha hecho falta tocar el html*/
+    @import 
+        url('https://fonts.googleapis.com/css?family=Montserrat:font-wght @100&display=swap');
+
+     /*Header*/
+
+    header {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;   
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    nav li { 
+        display: inline; 
+        margin-right: 20px; 
+
+    }
+    a:hover{        
+            color:  #a9065d;
+    }
+    nav a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 20px; 
+    }
+   
+    /* Footer */
+    
+    footer{
+        background-color: #333;
+        color: #fff;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 40px;    
+    }
+
+    footer >p{
+       margin: 3px;
+    }
+
+    /*Contenido de la pagina*/
+
+    body{
+        margin: 0;
+    }
+    img{
+        height: 150px;
+        width: 170px;
+        border-radius: 6%;
+
+    }
+    div.button-container{
+    margin: 40px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+        
+    }
+    div.button-container>a{
+        border: 2px solid #4CAF50;
+        border-radius: 6%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+    span{
+        margin-top: 10px;
+    }
+    a{
+        text-decoration: none;
+        color: #333;;
+        font-size: 20px;
+    }
+    a:hover{
+        background-color: #4CAF50;
+        color: white;
+    }
+
+    /*Media query para que se vea bien en pantallas pequeñas */
+
+    @media (max-width: 890px), (max-height: 560px) {
+    div.button-container{
+    margin: 40px;
+    padding: 20px;
+    gap: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    }
+    }
+    

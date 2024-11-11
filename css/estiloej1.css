@@ -1,0 +1,109 @@
+/*FRANCISCO BARROSO SIMON*/
+    /*No me ha hecho falta tocar el html*/
+    @import 
+        url(https://fonts.googleapis.com/css?family=Montserrat:font-weight);
+        
+        /*Header*/
+
+    header {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;   
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    nav li { 
+        display: inline; 
+        margin-right: 20px; 
+
+    }
+    a:hover{        
+            color:  #a9065d;
+    }
+    nav a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 20px; 
+    }
+   
+    /* Footer */
+    
+    footer{
+        background-color: #333;
+        color: #fff;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 40px;    
+    }
+
+    footer >p{
+       margin: 3px;
+    }
+
+    /*Contenido de la pagina*/
+
+   body {
+        font-family: Arial, sans-serif; 
+        margin: 0;
+        background-color: #f4f4f9;
+        color: #0b0a0a;
+        font-family: 'Montserrat', Arial, sans-serif;
+        
+    }        
+    h2, h3{
+        text-align: center;
+    }
+    h2{
+        font-size: 38px;
+        margin-top: 0;
+    }
+    h3{
+        font-size: 28px;
+    }
+
+    /*FORMULARIO*/
+
+    form{
+    padding: 10px;
+    max-width: 800px;
+    min-height: 500px;
+    background-color:white;
+    margin: 0 auto;
+    margin-top: 20px;
+    box-shadow:#0b0a0a;
+    }
+    input, select{
+    margin-bottom: 15px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box; 
+    color: black; 
+    font-weight: bold; 
+    box-shadow:#0b0a0a;
+    }
+    form > p{
+    padding: 10px;
+    }
+    input:last-child{
+    background-color: #a9065d;
+    border: 0;
+    font-size: 1em; 
+    color:  white;
+    }
+    input:last-child:hover{
+        background-color:  #4CAF50;
+    }
+    form > ul{
+        text-align: justify;
+    }
